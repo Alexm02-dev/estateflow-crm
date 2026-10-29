@@ -1,0 +1,26 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Backend Build & IDE Files
+backend/target/
+backend/.idea/
+backend/*.iml
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# Frontend Build & Dependency Files
+frontend/node_modules/
+frontend/dist/
+frontend/.idea/
+frontend/*.log
+
+# Environment Files
+.env
+.env.local
+*.env
+!.env.example
+
+# Flyway logs
+flyway.log
