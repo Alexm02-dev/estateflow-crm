@@ -7,7 +7,7 @@ spring:
   application:
     name: real-estate-crm-backend
   datasource:
-    url: ${DB_JDBC_URL:jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:estatecrm_db}?useSSL=${DB_USE_SSL:false}&allowPublicKeyRetrieval=true&serverTimezone=UTC&characterEncoding=UTF-8}
+    url: ${DB_JDBC_URL:jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:estatecrm_db}?useSSL=${DB_USE_SSL:false}&enabledTLSProtocols=TLSv1.2,TLSv1.3&allowPublicKeyRetrieval=true&serverTimezone=UTC&characterEncoding=UTF-8}
     username: ${DB_USERNAME:root}
     password: ${DB_PASSWORD:root}
     driver-class-name: com.mysql.cj.jdbc.Driver
